@@ -18,7 +18,7 @@ header{
     padding-top: 18px;
 }
 .main1{
-  background: url(/Images/br3.jpg);
+  background: url(../Images/br3.jpg);
    
 }
 .liner{
@@ -35,7 +35,7 @@ header{
 .container{
   height: 500px;
      width: 80%;
-    background: url(/Images/br2.jpg)no-repeat ;width: 1320;height: 422;
+    background: url(../Images/br2.jpg)no-repeat ;width: 1320;height: 422;
 }
 .nav{
    height: 52px;
@@ -258,7 +258,7 @@ color: #9c1010;
      margin-top: 100px;
 }
 footer{
-    background: url(/Images/222222.jpg);
+    background: url(../Images/222222.jpg);
 }
 .footer_br{
     width: 80%;
