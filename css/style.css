@@ -35,12 +35,8 @@ header{
 .container{
   height: 500px;
      width: 80%;
-<<<<<<< HEAD
-    background: url(../Images/br2.jpg )no-repeat  ;
+    background: url(../Images/br2.jpg ) no-repeat  ;
   
-=======
-    background: url(../Images/br2.jpg)no-repeat ;width: 1320;height: 422;
->>>>>>> 4ccc2f14e8912bf8caac669a8bd7ce2d08e2ef3d
 }
 .nav{
       width: 80%;
