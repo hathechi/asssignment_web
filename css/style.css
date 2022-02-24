@@ -35,9 +35,15 @@ header{
 .container{
   height: 500px;
      width: 80%;
+<<<<<<< HEAD
+    background: url(../Images/br2.jpg )no-repeat  ;
+  
+=======
     background: url(../Images/br2.jpg)no-repeat ;width: 1320;height: 422;
+>>>>>>> 4ccc2f14e8912bf8caac669a8bd7ce2d08e2ef3d
 }
 .nav{
+      width: 80%;
    height: 52px;
    background-color: rgb(71, 73, 73);
 }
@@ -51,16 +57,17 @@ header{
     display: inline-block;
 }
 .nav1 li a{
-   display: inline-block;
-     color: aliceblue;
+    display: inline-block;
+    color: aliceblue;
     text-decoration: none;
     line-height: 52px;
-padding: 0 25px;
- border-left: 1px solid #303030;
+    padding: 0 18px;
+    border-right: 1px solid #303030;
    
 }
 .nav1 li:hover a{
     background-color: #333;
+    color: yellow;
     
 }
 .nav1 li:hover .subnav, .nav1 li:hover .subnav1,.nav1 li:hover .subnav2,.nav1 li:hover .subnav3{
@@ -68,13 +75,16 @@ padding: 0 25px;
 }
 .subnav{
      position: absolute ;
-    right: 177px;
+  padding: 0;
     display: none;
+     z-index: 999;
+   width: 250px;
+   background-color: #303030;
 }
 
 .subnav1{
     position: absolute;
-    /* right: 1032px; */
+    
     display: none;
    z-index: 999;
    width: 300px;
@@ -88,14 +98,20 @@ padding: 0 25px;
 }
 .subnav2{
     position: absolute;
-    right: 823px;
+    padding: 0;
     display: none;
+     z-index: 999;
+   width: 250px;
+   background-color: #303030;
 }
 
 .subnav3{
     position: absolute;
-    right: 590px;
+   padding: 0;
     display: none;
+     z-index: 999;
+   width: 250px;
+   background-color: #303030;
 }
 .body{
     background-color: #fff;
@@ -128,7 +144,7 @@ padding: 0 25px;
 }
 
 .tintuc{
-    height: 350px;
+    height: 370px;
     width: 80%;
     margin-top: 30px;
 }
@@ -139,15 +155,16 @@ padding: 0 25px;
 }
 .tintuctrai {
     width: 70%;
-    float: left;
+    display: inline-block;
     border-top: 1px solid #333;
    
     font-size: 15px;
 }
 .image div{
     display:inline-block;
-    margin-right: 25px;
-    
+    margin-right: 12px;
+    text-align: center;
+ 
 }
 .tintucphai{
     float: right;
@@ -185,7 +202,7 @@ li::marker{
 }
 .sukientrai ul{
     float: right;
-    padding-right: 30px;
+    
 }
 .sukientrai ul li{
     padding-bottom: 20px;
@@ -210,11 +227,12 @@ color: #9c1010;
 }
 .tuyensinh{
     width: 80%;
-    margin-bottom: 70px;
+    height: 400px;
+   
 
 }
 .tuyensinh1{
-    width: 50%;
+    width: 48%;
     float: left;
    
 }
@@ -225,13 +243,15 @@ color: #9c1010;
 }
 .tuyensinh1 .tuyensinh_chu{
   float: right;
-  padding-right: 90px;
+ 
   font-size: 18px;
 }
 .tuyensinh1 .tuyensinh_chu h3{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     
 }
+
+
 .xct a{
     color: #9c1010;
     text-decoration: none;
@@ -243,12 +263,18 @@ color: #9c1010;
 
 
 .tuyensinh2{
+    width: 48%;
+    float: right;
     padding-top: 100px;
 }
 .tuyensinh2 .tuyensinh_chu1{
-    float: right;
-  padding-right: 70px;
+   float: right;
+ 
   font-size: 18px;
+}
+.tuyensinh2 .tuyensinh_chu1 h3{
+    margin-bottom: 20px;
+    
 }
 .xct1 a{
      color: #9c1010;
@@ -259,10 +285,16 @@ color: #9c1010;
 }
 footer{
     background: url(../Images/222222.jpg);
+<<<<<<< HEAD
+    clear: both;
+   
+=======
+>>>>>>> 4ccc2f14e8912bf8caac669a8bd7ce2d08e2ef3d
 }
 .footer_br{
     width: 80%;
     height: 380px;
+    
 
 }
 
@@ -274,6 +306,7 @@ width: 25%;
 }
 .footer_left .footer_left2{
     width: 25%;
+   
     float: left;
     padding-top: 50px;
   
@@ -288,8 +321,8 @@ width: 25%;
     margin-top: 10px;
 }
 .footer_left .footer_left2 p{
-    width: 110px;
-   
+    width: 120px;
+  margin-left: 100px;
     text-align: center;
    border-radius: 10px;
     background-color: #fff;
